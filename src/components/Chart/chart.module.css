@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+.bgc {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+@media (max-width: 770px){
+    .container{
+        width: 100%;
+    }
+}
